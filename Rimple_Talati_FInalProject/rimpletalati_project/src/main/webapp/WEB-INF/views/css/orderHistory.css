@@ -1,0 +1,17 @@
+body {
+	 
+	background-size: 100% 100%;
+	background-color: #DFE2DB;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+.formDiv{
+	background: url('../resources/images/backgroundImg.jpg'); 
+	margin-top:10px;
+	padding-bottom:150px;
+}

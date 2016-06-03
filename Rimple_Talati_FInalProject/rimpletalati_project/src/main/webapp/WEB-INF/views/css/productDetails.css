@@ -1,0 +1,48 @@
+body{
+	background-color: #DFE2DB;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.myheader{
+	margin-bottom:10px;
+}
+#productDetailsForm{
+	background: url('../resources/images/backgroundImg.jpg'); 
+	/* background-color:white; */
+	padding:15px 10px 5px 10px;
+	height:600px;
+}
+
+.paintingImgDiv img{
+	border:9px solid white;
+	/* z-index:-1; */
+	
+    
+	}
+h3{
+	color:grey;
+	font-family: fantasy;
+	
+}
+p{
+	color:white;
+	font-family: fantasy;
+	font-size:18px;
+	
+}
+.addToCartbtn{
+	
+	background: url('../resources/images/Add.png');
+	background-repeat: no-repeat;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	/*  top:10px;
+	left:350px;  */
+	 z-index:1; 
+	border:none;
+	background-color:red;
+	
+}

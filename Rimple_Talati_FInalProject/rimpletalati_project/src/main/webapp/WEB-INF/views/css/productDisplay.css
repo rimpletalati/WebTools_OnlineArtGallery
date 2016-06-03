@@ -1,0 +1,90 @@
+body{
+	/* background: url('../resources/images/backgroundImg.jpg');
+	background-size:cover; */
+	/* background-color:red; */
+	background-color: #DFE2DB;
+	margin-left:auto;
+	margin-right:auto;
+	min-height:100%;
+	
+	
+}
+
+
+
+h3,h2{
+	color:#990000;
+	font-family: fantasy;
+	
+}
+
+a{
+	color:#FF9900;
+}
+a:hover{
+	color:#33CCCC;
+
+}
+
+.searchResults{
+	 /* background: url('../resources/images/backgroundImg.jpg'); */
+	background-size:cover; 
+	color:black;
+	height:auto;
+	/* background-color:pink;*/
+	/*opacity:0.5;*/
+}
+
+.imgRow{
+margin:20px;
+	
+}
+
+.imgRow img{
+padding-right:15px;
+}
+
+.display{
+	background-color:white;
+	padding:5px 10px 5px 50px;
+}
+
+.margintopmd{
+	margin-top:20px;
+}
+
+.quickRow{
+	/* background-color:white; */
+}
+
+.myclassDiv{
+	margin-top:7px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	background: url('../resources/images/backgroundImg.jpg');
+ 	 
+ 	background-size:cover;
+	
+}
+
+/* .mycomp {
+	width: 100px;
+	height: 100px;
+} */
+
+.quickSearchForm input, .quickSearchForm select {
+	width: 150px;
+	margin: 10px;
+}
+
+.quickSearchForm label {
+	margin-top: 13px;
+}
+.quickSearchForm input[type="submit"]{
+	width:170px;
+}
+
+
+.priceInput input {
+	width: 70px;
+}

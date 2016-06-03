@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/artgallerydb</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.show_sql">true</property>
+        
+        <mapping class="com.neu.edu.model.Admin"></mapping>
+        <mapping class="com.neu.edu.model.Customer"></mapping>
+        <mapping class="com.neu.edu.model.Order"></mapping>
+        <mapping class="com.neu.edu.model.OrderItem"></mapping>
+        <mapping class="com.neu.edu.model.Painting"></mapping>
+        <mapping class="com.neu.edu.model.PaintingCategory"></mapping>
+        <mapping class="com.neu.edu.model.Payment"></mapping>
+        <mapping class="com.neu.edu.model.Person"></mapping>
+        <mapping class="com.neu.edu.model.Supplier"></mapping>
+        <mapping class="com.neu.edu.model.UserAccount"></mapping>
+        <mapping class="com.neu.edu.model.UserRole"></mapping>
+      
+    </session-factory>
+</hibernate-configuration>

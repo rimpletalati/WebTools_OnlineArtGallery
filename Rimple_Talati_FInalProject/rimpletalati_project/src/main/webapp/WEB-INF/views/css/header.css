@@ -1,0 +1,29 @@
+.header {
+	padding:35px;
+	position: absolute;
+	top: 15%;
+	left: 1%;
+}
+
+ .header a:hover{
+	text-decoration:none;
+} 
+.header p:first-child {
+	font-size: 40px;
+	color: white;
+	font-family:"lucida calligraphy",arial,'sans serif'; 
+	
+}
+.headerP{
+	font-size: 25px;
+	color: white;
+}
+
+.header p:first-child:first-letter {
+	float: left;
+	font-size: 200px;
+	margin-right: 6px;
+	line-height: 50%; 
+	text-shadow: 0.05em 0.05em #C0C0C0;
+}
+

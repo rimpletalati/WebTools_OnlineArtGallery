@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	 
+	background-size: 100% 100%;
+	background-color: #DFE2DB;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.formDiv{
+	background: url('../resources/images/backgroundImg.jpg'); 
+	margin-top:10px;
+	padding-bottom:100px;
+}
+
+ .errormsgjquery{
+        border: 1px solid;
+        margin: 10px 0px;
+        padding:10px;
+        background-repeat: no-repeat;
+        background-position: 10px center;
+        position:relative;
+        color: #00529B;
+        background-color: #BDE5F8;
+        background-image: url('info.png');
+    }
+
+#cardNumber1,#cardNumber2,#cardNumber3,#cardNumber4{
+	width:50px;
+	display:inline;
+	padding:5px;
+	margin-right:15px;
+	
+	
+}
+.exp select {
+	width:100px;
+	display:inline;
+}
+#errors{
+	color:#FF6666;
+}
+

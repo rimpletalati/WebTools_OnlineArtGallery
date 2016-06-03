@@ -1,0 +1,50 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #DFE2DB;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+
+
+h2{
+	color:white;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.cartTable{
+	margin: 5px 3px;
+	border-collapse:collaspe;
+	border-spacing:0;
+	width:100%;
+	color:white;
+}
+
+tr{
+	vertical-align:inherit;
+	border-color:inherit;
+	/* padding:10px; */
+}
+
+tr td{
+	margin:10px;
+	padding:5px;
+}
+
+#big-form
+{
+	 /* width:800%; */
+	padding-bottom:70px;
+}
+
+.tableDiv{
+	background: url('../resources/images/backgroundImg.jpg'); 
+	margin-top:10px;
+	padding-bottom:270px;
+}
